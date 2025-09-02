@@ -17,7 +17,7 @@ export default function Portfolio() {
       title: "Portfolio Website",
       desc: "React, Tailwind, HTML",
       img: portfolio,
-      live: "https://your-live-link.com",
+      live: "https://portfolio-react-q8yr.vercel.app/",
       github: "https://github.com/rameshdas333/portfolio-react"
     },
     {
