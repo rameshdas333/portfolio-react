@@ -18,7 +18,7 @@ export default function Portfolio() {
       desc: "React, Tailwind, HTML",
       img: portfolio,
       live: "https://portfolio-react-q8yr.vercel.app/",
-      github: "https://github.com/rameshdas333/portfolio-react"
+      github: "https://portfolio-react-aos3.vercel.app/portfolio"
     },
     {
       id: 2,
