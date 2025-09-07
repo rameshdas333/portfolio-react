@@ -13,3 +13,8 @@
 body{
      font-family: "Open Sans", sans-serif;
 }
+@media (max-width: 480px) {
+  .slick-prev, .slick-next {
+    display: none !important;
+  }
+}
