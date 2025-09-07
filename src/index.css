@@ -15,6 +15,45 @@ body{
      overflow-x: hidden !important;
      
     }
+.swiper-button-prev:after {
+    content: 'prev';
+    z-index: 999 !important;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  
+    color:red !important;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+    font-family: swiper-icons;
+    font-size: 44px !important;
+    text-transform: none !important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+/* .swiper-button-next:after {
+    content: 'next' ;
+    z-index: 999 !important;
+}
+ .swiper-button-prev, .swiper-button-next {
+    position:fixed !important; 
+    top: var(--swiper-navigation-top-offset, 80%);
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff0000 !important;
+}
+ */
+
+
+
+
 /* @media (max-width: 950px) {
   .slick-prev, .slick-next {
     display: none !important;
