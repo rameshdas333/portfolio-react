@@ -55,32 +55,36 @@ export default function Portfolio() {
     slidesToScroll: 1,
     nextArrow: <NextArrows />,
     prevArrow: <PrevArrows />,
-     responsive: [
+       responsive: [
     {
-      breakpoint: 1280, // large laptop/desktop
+      breakpoint: 1280,
       settings: {
         slidesToShow: 3,
-      }
+      },
     },
     {
-      breakpoint: 1024, // small laptop
+      breakpoint: 1024,
       settings: {
         slidesToShow: 2,
-      }
+      },
     },
     {
       breakpoint: 768, // tablet
       settings: {
-        slidesToShow: 1,  
-      }
+        slidesToShow: 1, // একটার বেশি আসবে না
+        arrows: false,   // চাইলে mobile এ arrow hide করো
+        dots: true,      // dots enable করলে swipe বুঝতে সহজ হয়
+      },
     },
     {
-      breakpoint: 320, // mobile
+      breakpoint: 480, // mobile
       settings: {
-        slidesToShow: 1,  
-      }
-    }
-  ]
+        slidesToShow: 1,
+        arrows: false,
+        dots: true,
+      },
+    },
+  ],
   };
 
   return (

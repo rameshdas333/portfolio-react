@@ -13,9 +13,15 @@
 body{
      font-family: "Open Sans", sans-serif;
      overflow-x: hidden !important;
+     
     }
-@media (max-width: 480px) {
+/* @media (max-width: 950px) {
   .slick-prev, .slick-next {
     display: none !important;
   }
-}
+  .slick-slide{
+    width: 17% !important;
+
+  }
+} */
+
