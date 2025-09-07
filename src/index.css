@@ -12,7 +12,8 @@
 }
 body{
      font-family: "Open Sans", sans-serif;
-}
+     overflow-x: hidden !important;
+    }
 @media (max-width: 480px) {
   .slick-prev, .slick-next {
     display: none !important;
