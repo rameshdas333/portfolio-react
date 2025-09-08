@@ -28,7 +28,7 @@ export default function Navbar() {
           </ul> 
           
         </div>
-         <a href="https://www.fiverr.com/?force_buying_nav" className="bg-primary1 hover:bg-blue-700 rounded-xl text-white text-sm md:text-xl  md:rounded-2xl  px-4 py-2 md:px-7 md:py-4">Hire Me</a>
+         <a href="https://www.fiverr.com/?force_buying_nav" className="bg-primary1 hover:bg-blue-700 rounded-xl text-white text-sm md:text-xl  md:rounded-2xl  px-4 mr-2 md:mr-0 py-2 md:px-7 md:py-4">Hire Me</a>
         </div>
     </div>
   )

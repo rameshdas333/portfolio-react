@@ -228,11 +228,11 @@ export default function Portfolio() {
         >
           {projects.map((project) => (
             <SwiperSlide key={project.id}>
-              <div className="bg-black p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
+              <div className="bg-black w-full mx-auto p-6 rounded-xl shadow hover:shadow-lg transition duration-300">
                 <img
                   src={project.img}
                   alt={project.title}
-                  className=" md:w-full h-52 object-cover rounded-lg mb-4"
+                  className=" w-full h-52 object-cover rounded-lg mb-4"
                 />
                 <h3 className="text-xl font-semibold mb-2 text-white">
                   {project.title}

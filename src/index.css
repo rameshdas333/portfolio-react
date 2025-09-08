@@ -12,10 +12,21 @@
 }
 body{
      font-family: "Open Sans", sans-serif;
-     overflow-x: hidden !important;
+     /* overflow-x: hidden !important; */
      
     }
-.swiper-button-prev:after {
+
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 12px !important;
+    z-index: 1;
+    display: block;
+}
+/* .swiper-button-prev:after {
     content: 'prev';
     z-index: 999 !important;
 }
@@ -31,7 +42,7 @@ body{
     letter-spacing: 0;
     font-variant: initial;
     line-height: 1;
-}
+} */
 /* .swiper-button-next:after {
     content: 'next' ;
     z-index: 999 !important;
