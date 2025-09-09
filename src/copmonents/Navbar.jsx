@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom'
 export default function Navbar() {
   return (
     <div>
+        
+ 
+
        <div className="navbar-start pt-12 ">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn text-black z-50 btn-ghost lg:hidden">
