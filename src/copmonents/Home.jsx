@@ -35,14 +35,14 @@ export default function Home() {
 
   <div className=" md:pt-[200px]  pb-80 md:pb-20 pt-10">
       <div className="border-hidden relative  md:border-dashed border-2  border-[#9747FF] p-2 md:p-5">
-        {/*  */}
-             <span class="absolute -right-5 -top-5 flex items-center justify-center size-10">
+        {/* bobble animation  */}
+             <span class="absolute right-4 md:-right-5 md:-top-5 flex items-center justify-center size-10">
   <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
   <span class="relative inline-flex size-6 rounded-full bg-sky-500"></span>
 </span>
         {/*  */}
         <h2 className="pb-2  font-semibold text-4xl text-[#474747] w-[140px]">Hi, I  am</h2>
-        <h1 className="pb-5 font-bold text-[#181818] w-[498px] text-start text-[36px] md:text-[70px] animate-pulse text-3xl  ">Ramesh Das</h1>
+        <h1 className="pb-5 font-bold text-[#181818] w-[498px] text-start text-[36px] md:text-[70px] animate-bounce text-3xl  ">Ramesh Das</h1>
          <p className="pb-5 text-base w-[300px] text-[#757575] md:w-[520px] text-start">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
          <div className="flex items-center gap-2">
             <a download="Ramesh_Das_CV.pdf" href="/cv.pdf" className="bg-primary1 hover:bg-blue-700 flex items-center gap-1 rounded-xl text-white text-sm md:text-xl  md:rounded-xl px-4 py-2 md:px-7 md:py-[16px]"><GoDownload /> Download CV</a>

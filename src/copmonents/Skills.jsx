@@ -89,12 +89,12 @@ export default function Skills() {
         </p>
 
         {/* Skills Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 md:gap-6 ">
           {visibleSkills.map(skill => (
             <div 
               key={skill.id} 
               className=" p-6 rounded-lg bg-white shadow-sm text-thirdcolor75  mt-6 flex flex-col
-hover:scale-110 hover:bg-[#FFF8F3] drop-shadow-3xl transition duration-150 ease-in-out"
+md:hover:scale-110 hover:bg-[#FFF8F3] drop-shadow-3xl transition duration-150 ease-in-out"
             >
               {skill.icon}
               <h3 className="font-semibold text-secondary1 text-lg mb-2">{skill.title}</h3>
