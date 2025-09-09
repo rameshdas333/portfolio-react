@@ -1,7 +1,5 @@
-// App.jsx
 import React from "react";
 import Container from "./Container";
-import { Link } from "react-router-dom";
 import ImgBackground from "../assets/ImgBackground.png"
 import RameshTmg from "../assets/Ramesh.png"
 import Developer from "../assets/Developer.png"
