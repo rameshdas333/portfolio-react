@@ -78,7 +78,7 @@ export default function Skills() {
   const visibleSkills = showAll ? skills : skills.slice(0, 8);
 
   return (
-    <div className="bg-white pb-14 md:pb-25">
+    <div className="bg-white pb-14 mt-14 md:mt-30 md:pb-25">
       <div className="max-w-[1140px] mx-auto px-4 text-center">
         
         {/* Section Title */}

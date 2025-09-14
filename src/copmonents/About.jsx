@@ -1,8 +1,13 @@
 import React from "react";
+import Navbar from "./Navbar";
+import Container from "./Container";
 
 export default function About() {
   return (
-    <div className="bg-white py-10 md:py-35 flex items-center">
+      <>
+     <Container>
+       <Navbar/>
+              <div className="bg-white py-10 md:py-35 flex items-center">
       <div className="max-w-[1000px] rounded-xl px-6 sm:px-10 md:px-16 lg:px-20 py-10 sm:py-14 md:py-20 bg-[#FFF8F3] mx-auto text-center">
         
         {/* Title */}
@@ -43,6 +48,12 @@ export default function About() {
         </div>
       </div>
     </div>
+     </Container>
+     
+
+  
+      </>
+   
   );
 }
 

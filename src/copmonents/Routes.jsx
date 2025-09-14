@@ -3,6 +3,7 @@ import Layout from "./Layout";
 import Home from "./Home";
 import ErrorPage from "./ErrorPage";
 import Portfolio from "./Portfolio";
+import About from "./About"
 
 const router = createBrowserRouter([
   {
@@ -11,8 +12,8 @@ const router = createBrowserRouter([
    children:[
     {index:true, Component:Home},
     {path:"*",Component:ErrorPage},
-    {path:"/blog",Component:ErrorPage},
-    {path:"//portfolio",Component:Portfolio},
+    {path:"/about",Component:About},
+    {path:"/portfolio",Component:Portfolio},
    ]
   }
 ]);

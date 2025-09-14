@@ -5,7 +5,7 @@ import RameshTmg from "../assets/Ramesh.png"
 import Developer from "../assets/Developer.png"
 import { GoDownload } from "react-icons/go";
 import { IoCallOutline } from "react-icons/io5";
-import About from "./About";
+
 import Navbar from "./Navbar";
 import Skills from "./Skills";
 
@@ -63,7 +63,7 @@ export default function Home() {
          
     </div>
 
-    <About/>
+   
     <Skills/>
   </div>
 

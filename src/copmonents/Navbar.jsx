@@ -16,7 +16,7 @@ export default function Navbar() {
               tabIndex={0}
               className="menu  menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
              <li><Link to='/portfolio' className="text-sm text-thirdcolor47 md:text-xl ">Portfolio</Link></li>
-            <li><Link to='/blog' className="text-sm text-thirdcolor47 md:text-xl ">Blog</Link></li>
+            <li><Link to='/about' className="text-sm text-thirdcolor47 md:text-xl ">About</Link></li>
             </ul>
           </div>
           <Link to="/" className="font-semibold text-[#474747]  text-3xl md:text-5xl">Ra<span className="text-primary1">m</span>esh</Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
             <div className="navbar-center  hidden  lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li><Link to="/portfolio" className="text-sm px-4 rounded-xl py-2 md:px-7 text-[#181818] md:py-4 hover:bg-primary1 hover:text-white md:text-xl">Portfolio</Link></li>
-            <li><Link to="/blog" className="text-sm px-4 rounded-xl py-2 md:px-7 md:py-4 hover:bg-primary1 text-[#181818]  hover:text-white md:text-xl">Blog</Link></li>
+            <li><Link to="/about" className="text-sm px-4 rounded-xl py-2 md:px-7 md:py-4 hover:bg-primary1 text-[#181818]  hover:text-white md:text-xl">About</Link></li>
           </ul> 
           
         </div>
