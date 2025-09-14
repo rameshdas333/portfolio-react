@@ -29,7 +29,7 @@ export default function Home() {
 {/* =================================== */}
 
 {/* Hi I am section  */}
-  <div className="flex flex-col lg:flex-row items-center gap-2 pl-4 md:pl-0">
+  <div className="flex flex-col lg:flex-row items-center gap-2 pl-5 md:pl-0">
 
   <div className=" md:pt-[200px]  pb-80 md:pb-20 pt-10">
       <div className="border-hidden relative  md:border-dashed border-2  border-[#9747FF] p-2 md:p-5">
@@ -39,7 +39,7 @@ export default function Home() {
   <span class="relative inline-flex size-6 rounded-full bg-sky-500"></span>
 </span>
         {/*  */}
-        <h2 className="pb-2  font-semibold text-4xl text-[#474747] w-24 md:w-[140px]">Hi, I  am</h2>
+        <h2 className="pb-2  font-semibold text-4xl text-[#474747]  w-[140px]">Hi, I  am</h2>
         <h1 className="overflow-hidden pb-3 font-bold text-[#181818] w-auto md:w-[498px] text-start text-[36px] md:text-[70px] animate-bounce text-3xl  ">Ramesh Das</h1>
          <p className="pb-5 text-base w-[300px] text-[#757575] md:w-[520px] text-start">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
          <div className="flex items-center gap-2">
