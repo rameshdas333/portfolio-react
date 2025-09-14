@@ -175,7 +175,7 @@ export default function Portfolio() {
       desc: "React + Redux + Tailwind + Firebase",
       img: ecommerce,
       live: "https://ecommerce-cit-73jt.vercel.app/",
-      github: "https://github.com/rameshdas333/ecommerce-cit",
+      github: "https://github.com/rameshdas333/Ecommerce-cit",
     },
     {
       id: 3,
@@ -183,7 +183,7 @@ export default function Portfolio() {
       desc: "React + TailwindCSS",
       img: innovate,
       live: "https://innovate-projects-7cuu.vercel.app/",
-      github: "https://github.com/rameshdas333/Inovate-projects-react",
+      github: "https://github.com/rameshdas333/Innovate-projects",
     },
     {
       id: 4,
