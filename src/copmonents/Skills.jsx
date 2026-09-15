@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import { FaHtml5, FaCss3Alt, FaBootstrap, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
 import { SiTailwindcss, SiRedux, SiNextdotjs, SiTypescript, SiDaisyui, SiFirebase } from "react-icons/si";
-
+import { FaPython, FaGithub } from "react-icons/fa";
+import {
+  SiDjango,
+  SiPostman,
+  SiPostgresql,
+  SiSwiper,
+ 
+} from "react-icons/si";
 export default function Skills() {
   const [showAll, setShowAll] = useState(false);
 
@@ -72,6 +79,48 @@ export default function Skills() {
       title: "Firebase",
       desc: "Experienced in Firebase Authentication, Firestore, and Hosting to build secure and scalable apps."
     },
+    {
+  id: 13,
+  icon: <SiSwiper className="text-purple-600 text-5xl mb-4" />,
+  title: "Swiper",
+  desc: "Experienced in building responsive and interactive sliders, carousels, product showcases, and touch-enabled interfaces using Swiper."
+},
+{
+  id: 14,
+  icon: <FaPython className="text-5xl mb-4" />,
+  title: "Python",
+  desc: "Experienced in Python programming for backend development, automation, REST APIs, and web applications."
+},
+{
+  id: 15,
+  icon: <SiDjango className="text-green-700 text-5xl mb-4" />,
+  title: "Django REST Framework",
+  desc: "Experienced in building secure and scalable REST APIs with Django REST Framework, authentication, serializers, and CRUD operations."
+},
+{
+  id: 16,
+  icon: <SiPostman className="text-orange-500 text-5xl mb-4" />,
+  title: "Postman",
+  desc: "Experienced in testing, debugging, and validating REST APIs using Postman, including authentication and CRUD operations."
+},
+{
+  id: 17,
+  icon: <SiPostgresql className="text-blue-700 text-5xl mb-4" />,
+  title: "PostgreSQL",
+  desc: "Experienced in designing and managing relational databases with PostgreSQL for scalable web applications."
+},
+{
+  id: 18,
+  icon: <FaGithub className="text-gray-800 text-5xl mb-4" />,
+  title: "GitHub",
+  desc: "Experienced in Git and GitHub for version control, project collaboration, repository management, and deploying web applications."
+},
+{
+  id: 19,
+  icon: <SiFirebase className="text-yellow-600 text-5xl mb-4" />,
+  title: "Firebase",
+  desc: "Experienced in Firebase Authentication, Firestore, and Hosting to build secure and scalable apps."
+},
   ];
 
   
